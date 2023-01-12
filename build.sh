@@ -8,7 +8,7 @@ fi
 
 echo Building tetris/faas-cli:$eTAG
 
-docker build --build-arg -t tetris/faas-cli:$eTAG .
+docker build -t tetris/faas-cli:$eTAG .
 
 if [ $? == 0 ] ; then
 
